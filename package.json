@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-fist-indent",
+  "version": "1.0.3",
+  "description": "Indent with fists",
+  "main": "babel-plugin-fist-indent.js",
+  "scripts": {
+    "start": "webpack-dev-server --output-public-path=/build/  --mode development --progress --hot"
+  },
+  "author": "me 😝",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.0.8",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "@babel/parser": "^7.3.1"
+  }
+}
